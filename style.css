@@ -218,3 +218,4 @@ button { font: inherit; color: inherit; }
 .hidden {
   display: none !important;
 }
+svg#map[hidden] { display: block !important; }
