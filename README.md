@@ -42,3 +42,5 @@ Frontend-only web app that imports a building graph (`building.json`), draws it 
 
 ## License
 MIT — see `LICENSE`.
+Most useful prompt
+ Build a frontend-only web app called "Smart Escape", an interactive evacuation route simulator, using plain HTML, CSS and JavaScript (no build step). The app should import a building graph from `building.json` with strict validation (node/edge limits, unique IDs, no self-loops, no repeated pairs, positive integer costs, valid `initial_state`) and show clear error messages. Draw the map at the supplied coordinates, with distinct shapes for rooms, junctions and exits, and show corridor costs on every edge. Let the user select a start, block or unblock rooms, junctions and corridors, and close or reopen exits. Use Dijkstra's algorithm on the sum of edge costs, with tie-breaks by smallest exit ID and then lexicographically smallest node-ID sequence. Show the node sequence, exit and total cost, plus "No route available" and "Starting location blocked" states. Add a Reset button that restores the file's original `initial_state`. Support Bangla and English with the language remembered in localStorage.
