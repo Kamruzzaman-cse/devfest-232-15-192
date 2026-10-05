@@ -1,8 +1,8 @@
-# Smart Escape — Interactive Evacuation Route Simulator
+Smart Escape — Interactive Evacuation Route Simulator
 
-**Name:** Kamruzzaman Amit
-**Registration number:** YOUR-REG-NUMBER
-**Live link:** https://kamruzzaman-cse.github.io/devfest-YOUR-REG-NUMBER/
+Name:Kamruzzaman Amit
+Registration number:232-15-192
+Live link: https://kamruzzaman-cse.github.io/devfest-232-15-192/
 
 Frontend-only web app that imports a building graph (`building.json`), draws it on an interactive map, and finds the lowest-cost route from a chosen start to an open exit. Every hazard change recalculates the route instantly.
 
@@ -35,8 +35,10 @@ Frontend-only web app that imports a building graph (`building.json`), draws it 
 > (paste your best prompt here)
 
 ## Screenshots
-- `screenshots/baseline.png` — R1 → C1 → C2 → E1, cost 7
-- `screenshots/c2-blocked.png` — R1 → C1 → C3 → C4 → E2, cost 11
+- `baseline.png` — R1 → C1 → C2 → E1, cost 7
+- `c2-blocked.png` — R1 → C1 → C3 → C4 → E2, cost 11
+
+![C2 blocked](c2-blocked.png)
 
 ## License
 MIT — see `LICENSE`.
